@@ -5,7 +5,6 @@ import {Group} from "@mantine/core";
 import CreateSpaceModal from "@/features/space/components/create-space-modal.tsx";
 import {getAppName} from "@/lib/config.ts";
 import {Helmet} from "react-helmet-async";
-import {getAppName} from "@/lib/config.ts";
 import { useTranslation } from "react-i18next";
 
 export default function Spaces() {
